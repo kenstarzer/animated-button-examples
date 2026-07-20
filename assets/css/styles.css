@@ -20,3 +20,30 @@ a {
 		0px -1px 1px rgba(000,000,000,0.2),
 		0px 1px 0px rgba(255,255,255,0.3);
 }
+
+nav a {
+  
+  transition: transform .5s,
+              background-color 1s ease-in .5s;
+}
+nav a:hover {
+	background-color: red;
+  transform: scale(1.5);
+}
+
+@keyframes logo {
+  from {
+    transform: rotate(0) scale(.5);
+    left: 120%
+  }
+
+  50% {
+    transform: rotate(-720deg) scale(.5);
+    left: 0;
+  }
+
+  to {
+    transform: rotate(0) scale(1);
+  }
+}
+
