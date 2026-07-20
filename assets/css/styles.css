@@ -3,3 +3,20 @@
 * {
 	font-family: Arial;
 }
+
+// fancy button styles
+
+a {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 1.2em;
+	color: #ffffff;
+	padding: 10px 20px;
+	background: #ff932d;
+	border-radius: 5px;
+	border: 1px solid #c95e00;
+	box-shadow: inset 0px 1px 0px rgba(255,255,255,0.7);
+	text-shadow:
+		0px -1px 1px rgba(000,000,000,0.2),
+		0px 1px 0px rgba(255,255,255,0.3);
+}
