@@ -21,12 +21,12 @@ a {
 		0px 1px 0px rgba(255,255,255,0.3);
 }
 
-nav a {
+a {
   
   transition: transform .5s,
               background-color 1s ease-in .5s;
 }
-nav a:hover {
+a:hover {
 	background-color: red;
   transform: scale(1.5);
 }
